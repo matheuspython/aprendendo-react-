@@ -1,3 +1,12 @@
-function Primeiro(){ return 'Primeira mensagem enviada' } //mensagem que sera exportada para o index
+import React from 'react'
 
-export default Primeiro //exporta a function Primeiro
+function Primeiro(){ 
+  return (
+    <div className="">
+      <h1>Primeiro componente</h1>
+      <h2>Exemplo de um componente React</h2>
+    </div>
+  )
+ }
+
+export default Primeiro
