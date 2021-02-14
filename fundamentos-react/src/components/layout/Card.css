@@ -1,11 +1,16 @@
 .Card{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   margin: 20px;
 border: 3px solid black;
 border-radius: 10px;
 overflow: hidden;
 background-color: white;
+min-width: 300px;
 }
 .Card .Conteudo{
+  flex: 1;
   padding: 15px 0;
   color: black;
 }
