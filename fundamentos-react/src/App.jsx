@@ -1,4 +1,7 @@
+import './App.css'
+
 import React from 'react'
+
 import ComParametros from './components/layout/ComParametros.jsx'
 import Primeiro from './components/layout/Primeiro.jsx' //importando o componente primeiro para renderizar
 import ComFilhos from './components/layout/ComFilhos'
@@ -6,7 +9,7 @@ import Card from './components/layout/Card.jsx'
 
 export default props =>(
   
-<div>
+<div className="App">
     <Card titulo="exercicio x">
         <Primeiro />    
     </Card>
