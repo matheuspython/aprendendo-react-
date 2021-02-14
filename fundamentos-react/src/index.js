@@ -7,9 +7,10 @@ import Primeiro from './components/Primeiro.jsx' //importando o componente prime
 
 ReactDOM.render( 
     <div>
-        <Primeiro></Primeiro>
-        <ComParametros></ComParametros>
+        <Primeiro />
+        <ComParametros titulo="esse é o titulo" subtitulo="esse é o subtitulo" />
     </div>//se nao tivesse essa div não daria pra colocar mais de um componente
+    //titulo e subtitulo sao parametros dos componentes
 ,
     document.getElementById('root')
 )
