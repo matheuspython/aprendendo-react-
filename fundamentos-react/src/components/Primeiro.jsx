@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Primeiro(){ 
+export default () => { 
   return (
     <div className="">
       <h1>Primeiro componente</h1>
@@ -9,4 +9,3 @@ function Primeiro(){
   )
  }
 
-export default Primeiro
